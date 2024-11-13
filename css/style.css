@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+    --font-gamer: "Press Start 2P", system-ui;
+}
+
+/*Cabeçalho inicio*/
+
+#cabecalho{
+    width: 100%;
+    background: #5300C8;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 76.6rem;
+    height: 68.61rem;
+    border: 1px solid red;
+    display: flex;
+    margin: 3.33rem auto;
+}
+
+#titulo-lista-produtos{
+    width:578px ;
+    height: 24px;
+    text-align: center;
+    font-family: var(--font-gamer);
+}
+
+#lista-produtos{
+    height: 678px;
+    width: 971px;
+    padding: 15px;
+    gap: 115px;
+    font-family: var(--font-gamer);
+
+}
+
+#botao-forulario{
+    border: 1px solid #000;
+}
+
+#adicionar-produto{
+    height: 432px;
+    width: 537px;
+    border: 1px solid red;
+    gap: 40px;
+    padding: 40px;
+    font-family: var(--font-gamer);
+    text-align: center;
+}
+
