@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="js/script.js"></script>
     <title>AluraGeek</title>
 </head>
 <body>
     <header>
         <div id="cabecalho">
             <img src="./assets/Logo.svg" alt="logo">
-            
         </div>
     </header>
 
@@ -18,30 +18,52 @@
         <section id="lista-produtos" data-lista>
             <h1 id="titulo-lista-produtos">Meus Produtos</h1>
             
-            <ul id="lista-itens">
-                <li class="lista-produtos-item">
+            <ul id="lista-produtos-itens" data-lista-produto-itens>
+                <li class="card-produto">
+                    <img class="img-lista-produtos" src="assets/img.jpg" alt="">
+                    <h5>titulo</h5>
+                    <div class="card-produto-desc">
+                        <span >Valor</span>
+                        <span>excluir</span>
+                    </div>
+                </li>
 
+                <li class="card-produto">
+                    <img class="img-lista-produtos" src="assets/img.jpg" alt="">
+                    <h5>titulo</h5>
+                    <div class="card-produto-desc">
+                        <span >Valor</span>
+                        <span>excluir</span>
+                    </div>
+                </li>
+
+                <li class="card-produto">
+                    <img class="img-lista-produtos" src="assets/img.jpg" alt="">
+                    <h5>titulo</h5>
+                    <div class="card-produto-desc">
+                        <span >Valor</span>
+                        <span>excluir</span>
+                    </div>
                 </li>
             </ul>
         </section>
 
-        <section id="adicionar-produto:" data-adicionar-produto>
+        <section id="adicionar-produto" data-adicionar-produto>
             <h1>Adicionar Produto</h1>
-            
-            <form>
-                <input type="text" name="nome-produto" id="nome-produto" placeholder="Nome do item..." required>
-                <input type="text" name="valor-produto" id="valor-produto" placeholder="Valor do item..." required>
-                <input type="text" name="imagem-produto" id="imagem-produto" placeholder="Imagem..." required>
+            <form class="form-adicionar-produto">
+                <input class="input-form-adicionar-produto" type="text" name="nome-produto" id="nome-produto" placeholder="Nome do item..." required>
+                <input class="input-form-adicionar-produto" type="text" name="valor-produto" id="valor-produto" placeholder="Valor do item..." required>
+                <input class="input-form-adicionar-produto" type="text" name="imagem-produto" id="imagem-produto" placeholder="Imagem..." required>
 
                 <div id="botao-forulario">
                     
-                    <button id="limpar-furmulario-envio" value="Cadastar" name="cadastrar">
+                    <button class="btn-campo-envio" id="limpar-furmulario-envio" value="Cadastar" name="cadastrar">
                         Cadastrar
                     </button>
                     
 
-                    <button type="submit">
-                        
+                    <button class="btn-campo-envio" type="submit">
+                        Limpar
                     </button>
 
                 </div>
